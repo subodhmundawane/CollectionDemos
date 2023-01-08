@@ -1,6 +1,7 @@
 package com.velocity;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class AddStudent {
@@ -12,7 +13,12 @@ public class AddStudent {
 		list.add("Sandip");
 		list.add("Shubham");
 		list.add("Suraj");
-		System.out.println("List of Student>>" + list);
+		//System.out.println("List of Student>>" + list);
+		
+		Iterator<String> itr =list.iterator();
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
 		
 		
 		

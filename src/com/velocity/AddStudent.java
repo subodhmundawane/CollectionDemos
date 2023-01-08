@@ -15,10 +15,7 @@ public class AddStudent {
 		list.add("Suraj");
 		//System.out.println("List of Student>>" + list);
 		
-		Iterator<String> itr =list.iterator();
-		while(itr.hasNext()) {
-			System.out.println(itr.next());
-		}
+	rdefrghjk
 		
 		
 		
